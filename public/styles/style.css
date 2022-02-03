@@ -1,0 +1,45 @@
+body{
+  font-family: 'Supermercado One', cursive;
+}
+
+#messages{
+  background-color:aliceblue;
+  width: 500px;
+  height: 650px;
+  box-shadow: 0 0 1em gainsboro;
+  margin: auto;
+  font-size: 24px;
+}
+
+input{
+  margin: auto;
+  width: 20vw;
+  height: 3vh;
+}
+
+input:focus{
+  border: 0 none;
+  border: blue;
+  box-shadow: 0 0 1em rgba(2, 183, 238, 0.548);
+}
+
+
+button{
+  border-radius: 5px;
+  background: rgba(211, 210, 210, 0.555);
+  cursor: pointer;
+  width: 125px;
+  height: 30px;
+}
+
+button:hover{
+  background-color: rgb(255, 255, 255);
+  transition: 1s;
+}
+
+
+.field{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
